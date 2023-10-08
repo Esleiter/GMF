@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* Estilos para el div de superposición */
+#overlay {
+  position: absolute;
+  top: 10px; /* Ajusta la posición superior según tus necesidades */
+  left: 10px; /* Ajusta la posición izquierda según tus necesidades */
+  background-color: rgba(255, 255, 255, 0.521); /* Fondo semi-transparente */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el texto dentro del div de superposición */
+#text {
+    font-family: 'Courier New', Courier, monospace;
+  color: white; /* Color del texto */
+  font-size: 16px; /* Tamaño de fuente */
+}
