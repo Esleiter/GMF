@@ -25,7 +25,7 @@ Nuestra solución se basa en algoritmos de aprendizaje automático entrenados co
 
 
 ### Uso
-Puedes acceder a la interfaz de usuario a través de tu navegador web visitando [http://206.189.184.128/](http://206.189.184.128/)]. 
+Puedes acceder a la interfaz de usuario a través de tu navegador web visitando http://206.189.184.128/. 
 
 
 ### Contacto
