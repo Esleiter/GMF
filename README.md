@@ -1,4 +1,5 @@
 # GMF Wizard
+Demo [Geomagnetic index magic box 🪄📦](http://206.189.184.128/)
 # NASA Challenge - Develop the Oracle of DSCOVR
 ![imagen_nasa](https://www.earthdata.nasa.gov/s3fs-public/2023-09/space_apps_chall_logo23.JPG?VersionId=DUHIaTGGazLxDpEMxW01caecZm2s2J39)
 
