@@ -5,3 +5,5 @@ test/clear_data/data/dsc_fc_summed_spectra_2020_v01.csv
 test/clear_data/data/dsc_fc_summed_spectra_2021_v01.csv
 test/clear_data/data/dsc_fc_summed_spectra_2022_v01.csv
 test/clear_data/data/dsc_fc_summed_spectra_2023_v01.csv
+test/clear_data/netCDF_to_CSV/all_CDFs
+test/clear_data/netCDF_to_CSV/results_csv
