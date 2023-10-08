@@ -25,23 +25,40 @@ function reverseMatrix(matrix) {
 function generateChart(data) {
   const ctx = document.getElementById("myChart").getContext("2d");
   const myChart = new Chart(ctx, {
-    type: "bar", // Tipo de gráfico (en este caso, de barras)
+    type: "bar",
     data: {
-      labels: data[0], // Primera fila como etiquetas del eje x
+      labels: data[0].slice(1), // Usamos la primera fila como etiquetas excluyendo el primer valor
       datasets: [
         {
           label: data[1][0], // Etiqueta para el conjunto de datos
           data: data[1].slice(1), // Datos numéricos a partir de la segunda posición
-          backgroundColor: "rgba(75, 192, 192, 0.2)", // Color de fondo de las barras
-          borderColor: "rgba(75, 192, 192, 1)", // Color del borde de las barras
-          borderWidth: 1, // Ancho del borde de las barras
+          backgroundColor: "rgba(231, 255, 14, 0.49)",
+          borderColor: "rgba(231, 255, 14, 1)",
+          borderWidth: 1,
         },
       ],
     },
     options: {
       scales: {
+        x: {
+          ticks: {
+            color: "white", // Configura el color del texto en el eje Y
+          },
+        },
         y: {
+          min: 0, // Establece el valor mínimo en el eje y
+          max: 9, // Establece el valor máximo en el eje y
           beginAtZero: true,
+          ticks: {
+            color: "white", // Configura el color del texto en el eje Y
+          },
+        },
+      },
+      plugins: {
+        legend: {
+          labels: {
+            color: "white", // Configura el color del texto en la leyenda
+          },
         },
       },
     },

@@ -11,13 +11,26 @@
 
   <body>
     <div>
+      <canvas id="myChart" width="5" height="2"></canvas>
       <div id="overlay">
-        <p id="text">Geomagnetic index magic box 🪄📦</p>
-        <canvas id="myChart"></canvas>
+        <p id="text">
+          Geomagnetic index magic box 🪄📦<br />
+          <br />
+          powered by: GMF Wizards.<br />
+          <a
+            href="https://linktree.esleiter.com/"
+            target="_blank"
+            style="text-decoration: none; color: white"
+            >Esleiter Fajardo</a
+          >
+          <br />
+          Kevin Fernández
+        </p>
       </div>
+      <canvas id="webgl"></canvas>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
+    <script type="module" src="./index.js"></script>
     <script type="module" src="./gra.js"></script>
   </body>
 </html>

@@ -18,9 +18,16 @@ body {
   border-radius: 5px; /* Bordes redondeados */
 }
 
+#myChart {
+  z-index: 999;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
 /* Estilos para el texto dentro del div de superposición */
 #text {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   color: white; /* Color del texto */
   font-size: 16px; /* Tamaño de fuente */
 }

@@ -7,7 +7,7 @@ import { UnrealBloomPass } from "/node_modules/three/examples/jsm/postprocessing
 let scene;
 let camera;
 let renderer;
-const canvas = document.getElementsByTagName("canvas")[0];
+const canvas = document.getElementById("webgl");
 scene = new THREE.Scene();
 const fov = 60;
 const aspect = window.innerWidth / window.innerHeight;
