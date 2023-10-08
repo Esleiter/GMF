@@ -16,7 +16,9 @@ Nuestra solución se basa en algoritmos de aprendizaje automático entrenados co
 
 ### Referencia
 [Helmholtz-Zentrums Potsdam](https://kp.gfz-potsdam.de/)
+
 [SPACE WEATHER PREDICTION CENTER NOAA](https://www.swpc.noaa.gov/products/planetary-k-index)
+
 [Nowcasting and Predicting the K p Index Using Historical Values and Real‐Time Observations](https://www.researchgate.net/publication/334497198_Nowcasting_and_Predicting_the_K_p_Index_Using_Historical_Values_and_Real-Time_Observations)
 
 ### Uso
