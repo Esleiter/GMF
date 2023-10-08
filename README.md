@@ -2,30 +2,24 @@
 # NASA Challenge - Develop the Oracle of DSCOVR
 ![imagen_nasa](https://www.earthdata.nasa.gov/s3fs-public/2023-09/space_apps_chall_logo23.JPG?VersionId=DUHIaTGGazLxDpEMxW01caecZm2s2J39)
 
+### Description
+This repository is the result of our participation in the NASA Challenge, where we have developed an oracle to predict geomagnetic storms. Geomagnetic storms can have a significant impact on Earth's technological and communication infrastructure, making the presence of an accurate prediction system crucial. Our solution is based on machine learning algorithms trained with historical data of geomagnetic events and real-time solar activity data. We have utilized advanced technologies to create a prediction model that can accurately anticipate the arrival and intensity of geomagnetic storms.
 
-### Descripcion
-Este repositorio es el resultado de nuestra participación en el NASA Challenge, donde hemos desarrollado un oráculo para predecir tormentas geomagnéticas. Las tormentas geomagnéticas pueden tener un impacto significativo en las infraestructuras tecnológicas y de comunicación de la Tierra, por lo que contar con un sistema de predicción preciso es crucial.
-Nuestra solución se basa en algoritmos de aprendizaje automático entrenados con datos históricos de eventos geomagnéticos y datos en tiempo real de la actividad solar. Utilizamos tecnologías avanzadas para crear un modelo de predicción que puede anticipar con precisión la llegada y la intensidad de las tormentas geomagnéticas.
+### Key Features
+**Machine Learning Model:** We have trained a machine learning model using the TensorFlow library.
 
+**Real-Time Data:** We gather real-time data on solar activity from multiple sources, including NASA and NOAA.
 
-### Características Clave
-**Modelo de Aprendizaje Automático:** Hemos entrenado un modelo de aprendizaje automático usando la libreria TensorFlow.
+**User-Friendly Interface:** We have developed an intuitive user interface that allows users to obtain geomagnetic storm predictions easily.
 
-**Datos en Tiempo Real:** Recopilamos datos en tiempo real de la actividad solar desde múltiples fuentes, incluyendo la NASA y la NOAA.
-
-**Interfaz de Usuario Amigable:** Desarrollamos una interfaz de usuario intuitiva que permite a los usuarios obtener predicciones de tormentas geomagnéticas de manera sencilla.
-
-
-### Referencia
+### References
 [Helmholtz-Zentrums Potsdam](https://kp.gfz-potsdam.de/)
 
 [SPACE WEATHER PREDICTION CENTER NOAA](https://www.swpc.noaa.gov/products/planetary-k-index)
 
 [Nowcasting and Predicting the K p Index Using Historical Values and Real‐Time Observations](https://www.researchgate.net/publication/334497198_Nowcasting_and_Predicting_the_K_p_Index_Using_Historical_Values_and_Real-Time_Observations)
 
+### Usage
+You can access the user interface through your web browser by visiting http://206.189.184.128/.
 
-### Uso
-Puedes acceder a la interfaz de usuario a través de tu navegador web visitando http://206.189.184.128/. 
-
-
-### Contacto
+### Contact
