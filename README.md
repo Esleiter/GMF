@@ -4,6 +4,7 @@
 
 ### Description
 This repository is the result of our participation in the NASA Challenge, where we have developed an oracle to predict geomagnetic storms. Geomagnetic storms can have a significant impact on Earth's technological and communication infrastructure, making the presence of an accurate prediction system crucial. 
+
 Our solution is based on machine learning algorithms trained with historical data of geomagnetic events and real-time solar activity data. We have utilized advanced technologies to create a prediction model that can accurately anticipate the arrival and intensity of geomagnetic storms.
 
 ### Key Features
