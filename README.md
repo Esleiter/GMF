@@ -25,5 +25,3 @@ Our solution is based on machine learning algorithms trained with historical dat
 
 ### Usage
 You can access the user interface through your web browser by visiting http://206.189.184.128/.
-
-### Contact
